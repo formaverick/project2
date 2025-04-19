@@ -1,0 +1,1109 @@
+@charset "utf-8";
+
+#slidwrap {
+    width: 100%;
+    height: 538px;
+}
+
+/*메인 배너*/
+.banner_wraper {
+    width: 100%;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide {
+    width: 5300px;
+    display: flex;
+    transition: margin-left 5.0s ease-in-out;
+    transition: opacity 0.3s ease;
+}
+
+.slide li {
+    width: 1060px;
+    height: 538px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_wraper .slide .bannerimg {
+    width: 530px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.banner_wraper .slide .bannerimg .bannerMainImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner_wraper .product_info {
+    float: left;
+    position: absolute;
+    z-index: 10;
+    transform: translateY(-50%);
+}
+
+.product_info>.event {
+    background-color: rgb(219, 0, 0);
+    color: #ffffff;
+    font-weight: bold;
+    float: left;
+    padding: 3px;
+    border-radius: 5px;
+    margin: -160px 0 0 10px;
+}
+
+.product_info>.product_info_main {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 550;
+    float: left;
+    width: 400px;
+    height: 150px;
+    margin: -170px 0 0 10px;
+}
+
+.product_info_bottom {
+    float: left;
+    font-size: 13px;
+    color: #000000;
+    margin: -27px 0 0 10px;
+}
+
+.banner_wraper span {
+    position: absolute;
+    top: 50%;
+    display: block;
+    font-size: 20px;
+    color: #ddd;
+    line-height: 30px;
+
+    background: #72727266;
+    cursor: pointer;
+    transform: translateY(-80%);
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px 15px;
+}
+
+
+.prev {
+    left: 300px;
+}
+
+.next {
+    right: 300px;
+}
+
+/* section 시작 */
+section {
+    width: 100%;
+    height: 7950px;
+}
+
+.section_wrapper {
+    width: 1440px;
+    height: 8450px;
+
+    margin: 0 auto;
+}
+
+
+/*아이콘 메뉴*/
+.menu_icon {
+    width: 1200px;
+    height: 125px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+}
+
+.menu_icon>div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 25px 0 25px;
+    text-align: center;
+
+}
+
+.menu_icon>div>a>img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+/*주간 인기 + 월간 인기*/
+.hot {
+    width: 1210px;
+    height: 450px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+
+}
+
+.hot_index {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 14px;
+    line-height: 40px;
+}
+
+.hot_index span {
+    padding-right: 15px;
+}
+
+.hot_index span:hover {
+    cursor: pointer;
+}
+
+.hot_index span:last-child {
+    color: #AFAFAF;
+}
+
+/*주간 인기*/
+
+.hot .week1 .weekbox {
+    width: 230px;
+    height: 340px;
+
+    float: left;
+    margin: 20px 6px 0 6px;
+    overflow: hidden;
+}
+
+.hot .week1 .weekbox .product_img {
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.hot .week1 .weekbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.hot .week1 .weekbox img:hover {
+    transform: scale(1.03);
+}
+
+.hot .week1 .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.hot .week1 .product_info .discount {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.hot .week1 .product_info .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.hot .week1 .product_info .origin_price {
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-decoration: line-through;
+}
+
+.product_info:hover {
+    cursor: pointer;
+}
+
+
+/*오늘만 특가*/
+.today_sale {
+    width: 1210px;
+    height: 450px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+}
+
+.today_sale .td_title {
+    width: 140px;
+    height: 430px;
+
+    float: left;
+}
+
+.today_sale .td_title span {
+    font-size: 20px;
+}
+
+.today_sale .td_title a {
+    font-size: 12px;
+    float: left;
+    margin: 40px 0 0 0;
+}
+
+
+.today_sale .tdbox {
+    width: 311px;
+    height: 416px;
+    float: left;
+    margin: 0 0 0 45.3px;
+
+}
+
+.today_sale .tdbox .td_img {
+    width: 311px;
+    height: 311px;
+    overflow: hidden;
+}
+
+.today_sale .tdbox .td_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.today_sale .tdbox .td_img img:hover {
+    transform: scale(1.03);
+}
+
+.today_sale .tdbox .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.today_sale .tdbox .product_info .discount {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.today_sale .tdbox .product_info .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.today_sale .tdbox .product_info .origin_price {
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-decoration: line-through;
+}
+
+
+/*중간 이미지 배너*/
+.banner_img_middle {
+    width: 1210px;
+    height: 150px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+    position:relative;
+  }
+
+  .banner_img_middle .middle_banner_slider {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+
+  .banner_img_middle .middle_banner_slider li img{
+    width:100%;
+    height:100%;
+    float:left;
+    position:absolute;
+  }
+
+
+
+/*오늘의 쇼핑 추천*/
+.today_recommend {
+    width: 1210px;
+    height: 1010px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+
+}
+
+.today_recommend .td_title {
+    width: 1210px;
+    height: 40px;
+
+}
+
+.today_recommend .td_title h2 {
+    display: inline-block;
+    float: left;
+}
+
+.today_recommend .td_title p {
+    font-size: 15px;
+    line-height: 1.53;
+    color: #767676;
+    float: left;
+    margin: 11px 0 0 15px;
+}
+
+.today_recommend .reco_product {
+    width: 290px;
+    height: 400px;
+
+    float: left;
+    margin: 40px 8px 0 4.5px;
+}
+
+.today_recommend .reco_product .reco_img {
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+}
+
+.today_recommend .reco_product .reco_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.today_recommend .reco_product .reco_img img:hover {
+    transform: scale(1.03);
+}
+
+.today_recommend .reco_product .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.today_recommend .reco_product .product_info .discount {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.today_recommend .reco_product .product_info .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.today_recommend .reco_product .product_info .origin_price {
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-decoration: line-through;
+}
+
+.today_recommend .reset_recommend {
+    width: 1210px;
+    height: 60px;
+
+    float: left;
+    margin: 30px 0 0 0px;
+}
+
+.today_recommend .reset_recommend a img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 3px 0 0px;
+}
+
+.today_recommend .reset_recommend a {
+    font-size: 14px;
+    color: #2c2c2c;
+    display: inline-block;
+    margin: 5px 0 0 460px;
+
+    align-items: center;
+    padding: 15px 55px;
+    border: 1px solid #d5d5d5;
+    border-radius: 28px;
+
+    transition: 0.5s;
+}
+
+.today_recommend .reset_recommend a:hover {
+    background-color: rgba(180, 180, 180, 0.616);
+}
+
+
+/*기획전 01*/
+.renewal_01 {
+    width: 1220px;
+    height: 760px;
+    float: left;
+    margin: 100px 100px 70px 100px;
+
+}
+
+.renewal_01 .ex1 {
+    width: 100%;
+    height: 100%;
+}
+
+.renewal_01 .ex1 .ex1_1 {
+    width: 400px;
+    height: 636px;
+
+    float: left;
+    margin: 62px 3.2px 0 0px;
+    /* border-right: 1px solid #b1b1b1; */
+}
+
+.renewal_01 .ex1 .ex1_1 .re_main_image {
+    width: 350px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin: 40px 0 0 0px;
+}
+
+.renewal_01 .ex1 .ex1_1>div a img {
+    width: 100%;
+    height: 100%;
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail {
+    width: 350px;
+    height: 120px;
+    float: left;
+    margin: 20px 0 0 0px;
+
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail .re_img {
+    width: 78px;
+    height: 78px;
+    float: left;
+    margin: 20px 0 0 0px;
+
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail .product_info {
+    float: left;
+    margin: 30px 0 0 10px;
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+
+    /*overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    말줄임표 */
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail .product_info .discount {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail .product_info .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.renewal_01 .ex1 .ex1_1 .re_detail .product_info .origin_price {
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-decoration: line-through;
+}
+
+
+/*새로 들어온 상품*/
+.new_in {
+    width: 1210px;
+    height: 455px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+
+}
+
+.new_in .new_in_box {
+    width: 393.33px;
+    height: 394px;
+    float: left;
+    margin: 10px 10px 0 0px;
+
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.new_in .new_in_box img {
+    width: 100%;
+    height: 100%;
+
+    filter: brightness(80%);
+}
+
+.new_in .new_in_box img:hover {
+    transform: scale(1.06);
+}
+
+.new_in .new_in_box .product_info {
+    width: 300px;
+    height: 100px;
+    float: left;
+
+    position: absolute;
+    left: 30px;
+    top: 280px;
+}
+
+.new_in .new_in_box h4 {
+    color: #ffffff;
+}
+
+.new_in .new_in_box span {
+    float: left;
+    font-size: 13px;
+    color: #ffffff;
+    margin: 10px 0 0 0px;
+}
+
+/*종료 임박 기획전*/
+.close {
+    width: 1210px;
+    height: 357px;
+    float: left;
+    margin: 80px 100px 50px 100px;
+
+}
+
+.close .close_title {
+    width: 1210px;
+    height: 40px;
+
+}
+
+.close .close_title h2 {
+    display: inline-block;
+    float: left;
+}
+
+.close .close_title p {
+    font-size: 15px;
+    line-height: 1.53;
+    color: #767676;
+    float: left;
+    margin: 11px 0 0 15px;
+}
+
+.close .closebox {
+    width: 392px;
+    height: 293.5px;
+
+    float: left;
+    margin: 13px 11.33px 0 0px;
+
+    position: relative;
+}
+
+.close .closebox .img_box {
+    width: 392px;
+    height: 228.53px;
+
+    overflow: hidden;
+}
+
+.close .closebox .img_box a img {
+    width: 100%;
+    height: 100%;
+}
+
+.close .closebox .img_box a img:hover {
+    transform: scale(1.06);
+}
+
+.close .daybox {
+    width: 392px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    top: 188.53px;
+}
+
+.close .daybox p {
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -14px 0 0 -30px;
+}
+
+.close .product_info {
+    width: 100%;
+    height: 52.97px;
+
+    float: left;
+    margin: 10px 0 0 0px;
+}
+
+.close .product_info span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close .product_info p {
+    font-size: 12px;
+    color: #767676;
+    margin-top: 6px;
+}
+
+/* 기획전 02 */
+.renewal_02 {
+    width: 1210px;
+    height: 760px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+
+}
+
+.renewal_02 .ex1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.renewal_02 .ex1 .ex1_1 {
+    width: 400px;
+    height: 636px;
+
+    float: left;
+    margin: 62px 3.2px 0 0px;
+}
+
+.renewal_02 .ex1 .ex1_1 .re_main_image {
+    width: 350px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin: 40px 0 0 0px;
+}
+
+.renewal_02 .ex1 .ex1_1>div a img {
+    width: 100%;
+    height: 100%;
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail {
+    width: 350px;
+    height: 120px;
+    float: left;
+    margin: 20px 0 0 0px;
+
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail .re_img {
+    width: 78px;
+    height: 78px;
+    float: left;
+    margin: 20px 0 0 0px;
+
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail .product_info {
+    float: left;
+    margin: 30px 0 0 10px;
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+
+    /*overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    말줄임표 */
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail .product_info .discount {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail .product_info .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.renewal_02 .ex1 .ex1_1 .re_detail .product_info .origin_price {
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-decoration: line-through;
+}
+
+/* 브랜드 기획전 */
+.brand {
+    width: 1210px;
+    height: 374px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+
+}
+
+.brand .brand_title {
+    width: 1210px;
+    height: 60px;
+}
+
+.brand .brand_title>h2 {
+    display: inline-block;
+    flaot: left;
+    margin: 10px 15px 0 0px;
+}
+
+.brand .brand_title>a {
+    font-size: 13px;
+    color: #595959;
+    margin: 0 5px 0 5px;
+
+
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    padding: 13px;
+    border: 1px solid #d5d5d5;
+}
+
+.brand .brand_title a:hover {
+    background-color: #d4d4d48e;
+}
+
+.brand .brandimgbox {
+    width: 548px;
+    height: 314px;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 2px 0 0px;
+
+    position: relative;
+}
+
+.brand .brandimgbox .img_box {
+    width: 548px;
+    height: 314px;
+}
+
+.brand .brandimgbox .img_box a img {
+    width: 100%;
+    height: 100%;
+
+    filter: brightness(80%);
+}
+
+.brand .titlebox {
+    width: 548px;
+    height: 62px;
+
+
+    position: absolute;
+    top: 230px;
+}
+
+.brand .titlebox .titlebox1 {
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin: -14px 0 0 -30px;
+}
+
+.brand .titlebox .titlebox2 {
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    top: 88%;
+    left: 35%;
+    margin: -14px 0 0 -30px;
+}
+
+.brand .brandimgbox2 {
+    width: 314px;
+    height: 314px;
+
+    float: left;
+    margin: 0 8px 0 8px;
+
+    position: relative;
+}
+
+.brand .brandimgbox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.brand .product_info {
+    width: 314px;
+    height: 314px;
+
+    position: absolute;
+    top: 0px;
+}
+
+.brand .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin: -50px 0 0 -30px;
+
+    /*overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    말줄임표 */
+}
+
+.brand .product_info h6 {
+    height: 19px;
+    font-size: 14px;
+    color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -14px 0 0 -120px;
+}
+
+.brand .product_info .product_info_detail {
+    width: 125px;
+    height: 25px;
+
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.brand .product_info .discount {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.brand .product_info .last_price {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.brand .product_info .origin_price {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.brand .brandimgbox2 .product_info {
+    display: none;
+}
+
+.brand .brandimgbox2:hover .product_info {
+    background-color: rgba(180, 180, 180, 0.616);
+    display: block;
+}
+
+
+
+.brand .brandimgbox3 {
+    width: 314px;
+    height: 314px;
+    float: left;
+    margin: 0 8px 0 8px;
+
+    position: relative;
+}
+
+.brand .brandimgbox3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.brand .brandimgbox3 .product_info {
+    display: none;
+}
+
+.brand .brandimgbox3:hover .product_info {
+    background-color: rgba(180, 180, 180, 0.616);
+    display: block;
+}
+
+
+/* 카테고리별 랭킹 */
+.lanking {
+    width: 1210px;
+    height: 1035px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+
+}
+
+.lanking .lanklist {
+    width: 1170px;
+    height: 62px;
+
+    padding-bottom: 3px;
+    margin-top: 20px;
+    border: 1px solid #d5d5d5;
+    border-radius: 30px;
+}
+
+.lanking .lanklist>a {
+    font-size: 15px;
+    color: #595959;
+    display: inline-block;
+    font-weight: bold;
+
+    padding: 21px 40px;
+}
+
+.lanking .lankmain {
+    width: 230px;
+    height: 400px;
+
+    float: left;
+    margin: 12px 12px 0 0px;
+}
+
+.lanking .lankmain .lankimg {
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+    margin: 40px 0 0 0px;
+}
+
+.lanking .lankmain .lankimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.lanking .lankmain .lankimg img:hover {
+    transform: scale(1.03);
+}
+
+.lanking .lankmain .product_info p {
+    height: 19px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 0 0px;
+}
+
+.lanking .lankmain .product_info h5 {
+    margin: 10px 0 0 0px;
+}
+
+.lanking .lankmain .product_info .discount {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 0 0px;
+}
+
+.lanking .lankmain .product_info .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 0 0px;
+}
+
+.lanking .lankmore {
+    width: 1210px;
+    height: 60px;
+
+    float: left;
+    margin: 30px 0 0 0px;
+}
+
+.lanking .lankmore a {
+    font-size: 14px;
+    color: #2c2c2c;
+    display: inline-block;
+    margin: 10px 0 0 460px;
+
+    align-items: center;
+    padding: 15px 55px;
+    border: 1px solid #d5d5d5;
+    border-radius: 28px;
+
+    transition: 0.5s;
+}
+
+.lanking .lankmore a:hover {
+    background-color: rgba(180, 180, 180, 0.616);
+}
+
+
+/* 하단 이미지 배너 */
+.banner_img_bottom {
+    width: 1210px;
+    height: 150px;
+    float: left;
+    margin: 100px 100px 50px 100px;
+    position:relative;
+  }
+
+  .banner_img_bottom .bottom_banner_slider {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+
+  .banner_img_bottom .bottom_banner_slider li img{
+    width:100%;
+    height:100%;
+    float:left;
+    position:absolute;
+  }

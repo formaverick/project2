@@ -1,0 +1,1963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2test</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
+
+    <script src="js/catagory.js"></script>
+    <script src="js/mainslider.js"></script>
+    <script src="js/iconmenu.js"></script>
+    <script src="js/weekbest.js"></script>
+    <script src="js/monthbest.js"></script>
+    <script src="js/todayrecommend.js"></script>
+    <script src="js/imagebanner.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/lanking.js"></script>
+    <script src="js/exhibition.js"></script>
+    <script src="js/exhibition2.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header_wrapper">
+            <div class="mall">
+                <div class="story">
+                    <a href="#">스토리</a>
+                </div>
+                <div class="hts">
+                    <a href="#">핫트랙스</a>
+                </div>
+                <div class="sam">
+                    <a href="#">sam</a>
+                </div>
+                <div class="ebook">
+                    <a href="#">eBook</a>
+                </div>
+                <div class="KBO">
+                    <a href="#">교보문고</a>
+                </div>
+                <div class="nothing"></div>
+            </div>
+
+
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="핫트랙스 로고"></a>
+            </div>
+
+
+
+            <!-- 검색 창 -->
+            <div class="serchbox">
+                <select>
+                    <option value="ALL">통합검색</option>
+                    <option value="EB">교보문고</option>
+                    <option value="EB">eBook</option>
+                    <option value="SAM">sam</option>
+                    <option value="HTS" selected>핫트랙스</option>
+                </select>
+
+                <div class="serchboxmain">
+                    <form>
+                        <input type="text" placeholder="일상 속 모든 순간에 사랑을 담아">
+                        <buttom class="search_btn" type="submit">
+                            <img src="img/icon_search.webp" alt="serchicon">
+                        </buttom>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <!--로그인 버튼-->
+            <div class="login">
+                <a href="#">
+                    <img class="carticon" src="img/carticon.webp" alt="carticon">
+                </a>
+
+                <a href="#">
+                    <img class="loginicon" src="img/loginicon.png" alt="loginicon">
+                </a>
+            </div>
+
+
+
+            <nav class="menu">
+                <ul class="menu1">
+                    <!-- 카테고리 전체보기 버튼 -->
+                    <div class="btn1">
+                        <img src="img/icon_menu.webp" alt="메뉴 아이콘">
+                        <li id="main_menu">
+                            <ul id="category_main">
+                                <li>필기구 <span> > </span>
+                                    <ul class="write category_P">
+                                        <li>필기구 <span> > </span></li>
+                                        <li>볼펜 <span> > </span>
+                                            <ul class="pen category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>일반볼펜</li>
+                                                <li>일반 수성펜</li>
+                                                <li>디자인/캐릭터볼펜</li>
+                                                <li>볼펜 리필</li>
+                                            </ul>
+                                        </li>
+                                        <li>멀티펜 <span> > </span>
+                                            <ul class="multipen category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>멀티펜 완제품</li>
+                                                <li>멀티펜 바디</li>
+                                            </ul>
+                                        </li>
+                                        <li>만년필 <span> > </span>
+                                            <ul class="fountainpen category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>몽블랑</li>
+                                                <li>라미</li>
+                                                <li>파카</li>
+                                                <li>워터맨</li>
+                                                <li>파버카스텔</li>
+                                                <li>그라폰파버카스텔</li>
+                                                <li>카웨코</li>
+                                                <li>세일러</li>
+                                                <li>크로스</li>
+                                                <li>플레티넘</li>
+                                            </ul>
+                                        </li>
+                                        <li>연필/샤프/색연필 <span> > </span>
+                                            <ul class="pencil category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>연필</li>
+                                                <li>연필캡/연필홀더</li>
+                                                <li>샤프</li>
+                                                <li>샤프심/홀더심</li>
+                                                <li>연필깎이</li>
+                                                <li>색연필</li>
+                                            </ul>
+                                        </li>
+                                        <li>형광펜 <span> > </span>
+                                            <ul class="lightpen category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>형광펜 낱색</li>
+                                                <li>형광펜 세트</li>
+                                            </ul>
+                                        </li>
+                                        <li>마카/매직 <span> > </span>
+                                            <ul class="marker category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>보드마카</li>
+                                                <li>네임펜</li>
+                                                <li>매직</li>
+                                                <li>페인트마카</li>
+                                                <li>세라믹/패브릭마카</li>
+                                            </ul>
+                                        </li>
+                                        <li>사인펜 <span> > </span></li>
+                                        <li>캘리그래피펜 <span> > </span>
+                                            <ul class="calipen category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>붓펜/캘리그래피펜</li>
+                                                <li>캘리그래피 액세서리</li>
+                                            </ul>
+                                        </li>
+                                        <li>지우개 <span> > </span></li>
+                                        <li>프리미엄페이퍼 <span> > </span>
+                                            <ul class="paper category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>라이프</li>
+                                                <li>츠바메노트</li>
+                                                <li>로디아</li>
+                                                <li>복면사과</li>
+                                                <li>기타 프리미엄 페이퍼</li>
+                                            </ul>
+                                        </li>
+                                        <li>펜 파우치/필통 <span> > </span>
+                                            <ul class="pouch category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>1구 파우치</li>
+                                                <li>2~3구 파우치</li>
+                                                <li>가죽필통</li>
+                                                <li>패브릭필통</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>디자인문구 <span> > </span>
+                                    <ul class="mungu category_P">
+                                        <li>디자인문구 <span> > </span></li>
+                                        <li>스터디/기능별플래너 <span> > </span>
+                                            <ul class="planner category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>스터디플래너</li>
+                                                <li>위클리 스케줄러</li>
+                                                <li>먼슬리 스케줄러</li>
+                                                <li>프로젝트플래너</li>
+                                                <li>가계부/캐쉬북</li>
+                                                <li>커버/액세서리</li>
+                                                <li>바인더</li>
+                                                <li>리필속지</li>
+                                                <li>기타 플래너</li>
+                                                <li>비즈니스플래너</li>
+                                            </ul>
+                                        </li>
+                                        <li>필통/파우치 <span> > </span>
+                                            <ul class="pouch2 category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>패브릭필통</li>
+                                                <li>가죽 / 합성피혁 필통</li>
+                                                <li>철제필통</li>
+                                                <li>지함필통</li>
+                                                <li>플라스틱필통</li>
+                                                <li>기타</li>
+                                                <li>프리미엄</li>
+                                            </ul>
+                                        </li>
+                                        <li>노트/메모 <span> > </span>
+                                            <ul class="memo category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>일기장</li>
+                                                <li>옥스포드/리갈패드</li>
+                                                <li>노트패트/메모패드</li>
+                                                <li>노트커버</li>
+                                                <li>유선 노트</li>
+                                                <li>무선 노트</li>
+                                                <li>바인더노트 / 리필</li>
+                                                <li>드로잉노트</li>
+                                            </ul>
+                                        </li>
+                                        <li>스티커 <span> > </span>
+                                            <ul class="sticker category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>스티커</li>
+                                                <li>스티커팩/SET</li>
+                                            </ul>
+                                        </li>
+                                        <li>키즈문구 <span> > </span></li>
+                                        <li>파일/바인더/앨범 <span> > </span>
+                                            <ul class="file category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>앨범</li>
+                                                <li>미니앨범</li>
+                                                <li>포트폴리오/스크랩북</li>
+                                                <li>티켓/영화</li>
+                                                <li>포토박스</li>
+                                                <li>프리미엄 바인더</li>
+                                                <li>클리어파일</li>
+                                                <li>링바인더</li>
+                                                <li>집게/레버/클립파일</li>
+                                                <li>클립보드</li>
+                                            </ul>
+                                        </li>
+                                        <li>로이텀 <span> > </span>
+                                            <ul class="royterm category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>다이어리</li>
+                                                <li>노트</li>
+                                                <li>필기구/펜루프</li>
+                                            </ul>
+                                        </li>
+                                        <li>2025 다이어리&플래너 <span> > </span></li>
+                                        <li>2025 캘린더 <span> > </span></li>
+                                        <li>문구세트 <span> > </span></li>
+                                        <li>인덱스/스탬프 <span> > </span>
+                                            <ul class="stamp category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>인덱스</li>
+                                                <li>스탬프</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>미술/오피스 <span> > </span>
+                                    <ul class="office category_P">
+                                        <li>미술/오피스 <span> > </span></li>
+                                        <li>화방/전문용품 <span> > </span>
+                                            <ul class="hwabang category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>스케치/드로잉</li>
+                                                <li>수채화</li>
+                                                <li>아크릴</li>
+                                                <li>유화</li>
+                                                <li>디자인/구성</li>
+                                                <li>서예용품</li>
+                                                <li>제도용품</li>
+                                            </ul>
+                                        </li>
+                                        <li>편지/카드/봉투 <span> > </span>
+                                            <ul class="letter category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>현금봉투</li>
+                                                <li>편지지</li>
+                                                <li>편지봉투</li>
+                                                <li>카드</li>
+                                                <li>엽서</li>
+                                                <li>편지SET</li>
+                                            </ul>
+                                        </li>
+                                        <li>포장/데코 <span> > </span>
+                                            <ul class="deco category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>포장박스</li>
+                                                <li>포장지</li>
+                                                <li>포장봉투</li>
+                                                <li>라벨/텍</li>
+                                                <li>리본/끈</li>
+                                                <li>쇼핑백</li>
+                                                <li>모양펀치</li>
+                                            </ul>
+                                        </li>
+                                        <li>오피스/사무 <span> > </span>
+                                            <ul class="samu category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>오피스문구</li>
+                                            </ul>
+                                        </li>
+                                        <li>프린터/잉크/출력용지 <span> > </span>
+                                            <ul class="printer category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>잉크/토너</li>
+                                                <li>출력용지</li>
+                                            </ul>
+                                        </li>
+                                        <li>데스크용품 <span> > </span>
+                                            <ul class="desk category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>데스크테리어</li>
+                                                <li>데스크정리</li>
+                                                <li>오피스 사무용품</li>
+                                            </ul>
+                                        </li>
+                                        <li>테이프 <span> > </span>
+                                            <ul class="tape category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>디자인테이프</li>
+                                                <li>마스킹테이프</li>
+                                                <li>수납/커터</li>
+                                                <li>종이/패브릭테이프</li>
+                                                <li>기능성테이프</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>독서용품 <span> > </span>
+                                    <ul class="book category_P">
+                                        <li>독서용품 <span> > </span></li>
+                                        <li>독서대 <span> > </span>
+                                            <ul class="bookgoods1 category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>원목</li>
+                                                <li>아크릴/투명</li>
+                                                <li>기타</li>
+                                            </ul>
+                                        </li>
+                                        <li>북커버 <span> > </span>
+                                            <ul class="bookcover category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>가죽</li>
+                                                <li>패브릭</li>
+                                                <li>북백</li>
+                                                <li>북파우치</li>
+                                            </ul>
+                                        </li>
+                                        <li>북마크 <span> > </span>
+                                            <ul class="bookmark category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>종이 북마크</li>
+                                                <li>메탈 북마크</li>
+                                                <li>북플래그</li>
+                                                <li>책도장</li>
+                                            </ul>
+                                        </li>
+                                        <li>책수납 <span> > </span>
+                                            <ul class="booksunap category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>북엔드</li>
+                                                <li>책꽂이</li>
+                                                <li>북레스트</li>
+                                            </ul>
+                                        </li>
+                                        <li>돋보기 <span> > </span>
+                                            <ul class="glasses category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>휴대용 돋보기</li>
+                                                <li>LED 돋보기</li>
+                                                <li>확대경</li>
+                                            </ul>
+                                        </li>
+                                        <li>발받침대 <span> > </span></li>
+                                        <li>북퍼퓸 <span> > </span></li>
+                                        <li>북라이트 <span> > </span></li>
+                                        <li>문진 <span> > </span></li>
+                                        <li>독서노트 <span> > </span></li>
+                                    </ul>
+                                </li>
+                                <li>전시/굿즈 <span> > </span>
+                                    <ul class="goods category_P">
+                                        <li>전시/굿즈 <span> > </span></li>
+                                        <li>티켓/서비스 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>전시/행사</li>
+                                                <li>렌탈/구독권</li>
+                                            </ul>
+                                        </li>
+                                        <li>포스터 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>원화</li>
+                                                <li>일러스트</li>
+                                            </ul>
+                                        </li>
+                                        <li>홈갤러리 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>캔버스</li>
+                                                <li>액자</li>
+                                                <li>프레임</li>
+                                            </ul>
+                                        </li>
+                                        <li>굿즈/에디션 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>스테이셔너리</li>
+                                                <li>리빙</li>
+                                                <li>디지털</li>
+                                                <li>패션/뷰티</li>
+                                                <li>키트</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>디지털-tech <span> > </span>
+                                    <ul class="tech category_P">
+                                        <li>디지털-tech <span> > </span></li>
+                                        <li>헤드폰/이어폰 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>헤드폰</li>
+                                                <li>이어폰</li>
+                                                <li>스피커</li>
+                                                <li>게이밍 헤드셋/이어폰</li>
+                                                <li>악세서리/케이스</li>
+                                            </ul>
+                                        </li>
+                                        <li>모바일/웨어러블 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>아이폰 케이스</li>
+                                                <li>아이폰 보호필름</li>
+                                                <li>아이패드</li>
+                                                <li>갤러시 케이스</li>
+                                                <li>갤러시 보호필름</li>
+                                                <li>기타브랜드 케이스/보호필름</li>
+                                                <li>내장/외장하드</li>
+                                            </ul>
+                                        </li>
+                                        <li>usb 소형가전 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>USB 선풍기/냉풍기</li>
+                                                <li>USB 공기청정기</li>
+                                                <li>USB 가습기/제습기</li>
+                                                <li>USB 손난로</li>
+                                                <li>USB 미러볼</li>
+                                                <li>기타</li>
+                                            </ul>
+                                        </li>
+                                        <li>스마트폰/태블릿 주변기기 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>애플 전용액세서리</li>
+                                                <li>태블릿 키보드</li>
+                                                <li>스마트폰 / 태블릿 거치대</li>
+                                                <li>스마트펜 / 터치펜</li>
+                                                <li>짐벌</li>
+                                                <li>셀카렌즈/스마트폰 렌즈</li>
+                                                <li>포토프린터 / 인화지</li>
+                                                <li>보조배터리/표준배터리</li>
+                                            </ul>
+                                        </li>
+                                        <li>포토 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>후지인스탁스</li>
+                                                <li>로모카메라</li>
+                                                <li>폴라로이드</li>
+                                                <li>고프로</li>
+                                                <li>클래식카메라</li>
+                                                <li>컴팩트카메라</li>
+                                            </ul>
+                                        </li>
+                                        <li>음향기기/스피커 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>라디오/CD플레이어</li>
+                                                <li>오디오세트</li>
+                                                <li>턴테이블</li>
+                                                <li>블루투스 스피커</li>
+                                                <li>휴대용 스피커</li>
+                                                <li>애플 도킹스피커</li>
+                                            </ul>
+                                        </li>
+                                        <li>PC/노트북 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>PC/노트북/태블릿</li>
+                                                <li>소프트웨어</li>
+                                                <li>그래픽카드</li>
+                                                <li>키보드</li>
+                                                <li>마우스</li>
+                                                <li>모니터/모니터받침대</li>
+                                                <li>노트북거치대/쿨러</li>
+                                            </ul>
+                                        </li>
+                                        <li>노트북가방/파우치 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>노트북 백팩</li>
+                                                <li>노트북 파우치</li>
+                                                <li>노트북 케이스</li>
+                                            </ul>
+                                        </li>
+                                        <li>1인미디어 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>장비세트</li>
+                                                <li>마이크</li>
+                                                <li>조명</li>
+                                                <li>스탠드</li>
+                                            </ul>
+                                        </li>
+                                        <li>자동차용품 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>주차번호판</li>
+                                                <li>방향제/공기청정기</li>
+                                                <li>자동차키홀더</li>
+                                                <li>수납/정리</li>
+                                                <li>핸들/스틱커버</li>
+                                                <li>햇빛가리개/조명</li>
+                                                <li>자동차시트/매트/쿠션</li>
+                                            </ul>
+                                        </li>
+                                        <li>주방가전 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>믹서기/블렌더</li>
+                                                <li>커피메이커</li>
+                                                <li>전기밥솥/찜기</li>
+                                                <li>그릴/전기렌지</li>
+                                                <li>토스터/오븐</li>
+                                                <li>전기주전자</li>
+                                                <li>식기세척기/건조기</li>
+                                                <li>냉장고</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>홈/라이프 <span> > </span>
+                                    <ul class="life category_P">
+                                        <li>홈/라이프 <span> > </span></li>
+                                        <li>홈/리빙 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>침구</li>
+                                                <li>패브릭</li>
+                                                <li>홈케어</li>
+                                                <li>욕실</li>
+                                                <li>데코/조명</li>
+                                                <li>시즌소품</li>
+                                            </ul>
+                                        </li>
+                                        <li>가구/수납 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>책장</li>
+                                                <li>책상</li>
+                                                <li>의자</li>
+                                                <li>수납/정리용품</li>
+                                                <li>선반/서랍장,수납장</li>
+                                                <li>옷장/행거</li>
+                                                <li>테이블</li>
+                                                <li>화장대/거울</li>
+                                                <li>소파/침대</li>
+                                            </ul>
+                                        </li>
+                                        <li>키친 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>식기/홈세트</li>
+                                                <li>컵/텀블러/커피,와인용품</li>
+                                                <li>피크닉/도시락</li>
+                                                <li>보관/밀폐용기</li>
+                                                <li>조리용품/키친잡화</li>
+                                                <li>홈베이킹/DIY</li>
+                                            </ul>
+                                        </li>
+                                        <li>푸드 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>커피/차/음료</li>
+                                                <li>간식/베이커리</li>
+                                                <li>면/양념/조미료</li>
+                                                <li>간편조리/냉동식품</li>
+                                                <li>건강/체중조절식품</li>
+                                                <li>잼/스프레드/치즈</li>
+                                                <li>신선식품</li>
+                                                <li>DIY베이킹/쿠킹</li>
+                                                <li>선물세트</li>
+                                            </ul>
+                                        </li>
+                                        <li>패션 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>패션의류</li>
+                                                <li>가방/백팩</li>
+                                                <li>모자</li>
+                                                <li>슈즈</li>
+                                                <li>양말/스타킹</li>
+                                                <li>홈웨어/이지웨어</li>
+                                                <li>우산/양산</li>
+                                                <li>캐리어/여행수납</li>
+                                                <li>여행소품</li>
+                                            </ul>
+                                        </li>
+                                        <li>뷰티/헬스 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>헬스용품</li>
+                                                <li>구강/위생용품</li>
+                                                <li>스킨/바디/헤어케어</li>
+                                                <li>향수</li>
+                                                <li>메이크업</li>
+                                                <li>뷰티소품 기기</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>여행/취미 <span> > </span>
+                                    <ul class="trip category_P">
+                                        <li>여행/취미 <span> > </span></li>
+                                        <li>취미 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>DIY</li>
+                                                <li>아트/컬러링</li>
+                                                <li>조립/퍼즐</li>
+                                                <li>악기</li>
+                                            </ul>
+                                        </li>
+                                        <li>여행/캠핑 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>여행</li>
+                                                <li>캠핑</li>
+                                            </ul>
+                                        </li>
+                                        <li>레저/스포츠 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>자전거</li>
+                                                <li>서핑/수영</li>
+                                                <li>스케이트보드</li>
+                                                <li>스키/보드복/톨티</li>
+                                                <li>고글/보호대/헬멧</li>
+                                                <li>마스크/반다나/워머</li>
+                                                <li>비니/털모자</li>
+                                                <li>야구/축구/농구</li>
+                                                <li>골프</li>
+                                                <li>배드민턴/테니스</li>
+                                            </ul>
+                                        </li>
+                                        <li>아웃도어 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>패션</li>
+                                                <li>모자/잡화</li>
+                                                <li>비너/액세서리</li>
+                                                <li>모기퇴치기</li>
+                                                <li>멀티툴</li>
+                                                <li>핫팩/쿨팩</li>
+                                                <li>눈/비 용품</li>
+                                            </ul>
+                                        </li>
+                                        <li>플랜테리어 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>식물/조화</li>
+                                                <li>플랜테리어 용품</li>
+                                            </ul>
+                                        </li>
+                                        <li>토이 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>R/C</li>
+                                                <li>게임/보드게임</li>
+                                                <li>피규어/모형</li>
+                                                <li>인형/장난감</li>
+                                            </ul>
+                                        </li>
+                                        <li>PET <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>PET 의류</li>
+                                                <li>PET 음식</li>
+                                                <li>PET 용품</li>
+                                                <li>PET 하우스</li>
+                                            </ul>
+                                        </li>
+                                        <li>Fun/파티 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>커플/프로포즈</li>
+                                                <li>생일</li>
+                                                <li>응원용품</li>
+                                                <li>파티데코/배너</li>
+                                                <li>펀/파티아이템</li>
+                                                <li>파티의상/패션</li>
+                                                <li>파티안경/가면</li>
+                                                <li>파티모자/가발</li>
+                                                <li>일반풍선</li>
+                                                <li>헬륨풍선</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>키즈 <span> > </span>
+                                    <ul class="kids category_P">
+                                        <li>키즈 <span> > </span></li>
+                                        <li>패션잡화 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>신발</li>
+                                                <li>가방/미아방지가방</li>
+                                                <li>모자</li>
+                                                <li>시계</li>
+                                                <li>우산</li>
+                                                <li>지갑/파우치</li>
+                                                <li>선글라스/안경</li>
+                                                <li>헤어핀/방울/밴드</li>
+                                                <li>주얼리</li>
+                                            </ul>
+                                        </li>
+                                        <li>레저/물놀이용품 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>아동용킥보드/자전거</li>
+                                                <li>아동용인라인</li>
+                                                <li>아동용헬멧</li>
+                                                <li>키즈레저잡화</li>
+                                                <li>아동용 자전거액세서리</li>
+                                                <li>운동기구/소품</li>
+                                                <li>수영복</li>
+                                                <li>아쿠아슈즈</li>
+                                                <li>튜브/비치볼/풀장</li>
+                                            </ul>
+                                        </li>
+                                        <li>키즈/베이비의류 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>티셔츠/셔츠</li>
+                                                <li>원피스</li>
+                                                <li>스커트</li>
+                                                <li>자켓/점퍼/망토</li>
+                                                <li>가디건/베스트</li>
+                                                <li>바지/레깅스</li>
+                                                <li>상하복세트</li>
+                                                <li>내의/실내복</li>
+                                                <li>우비</li>
+                                            </ul>
+                                        </li>
+                                        <li>완구/교구 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>도서</li>
+                                                <li>미술놀이</li>
+                                                <li>스포츠놀이</li>
+                                                <li>음악놀이</li>
+                                                <li>블록/퍼즐완구</li>
+                                                <li>교육완구</li>
+                                                <li>조립완구</li>
+                                                <li>원목완구</li>
+                                                <li>동물/캐릭터완구</li>
+                                            </ul>
+                                        </li>
+                                        <li>가구/침구/인테리어 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>놀이매트</li>
+                                                <li>플레이텐트</li>
+                                                <li>아동침대</li>
+                                                <li>아동침구</li>
+                                                <li>키즈테이블/의자</li>
+                                                <li>소파/아동스툴</li>
+                                                <li>블랑켓</li>
+                                                <li>책꽂이/정리함/옷걸이</li>
+                                                <li>키재기용품/스티커</li>
+                                            </ul>
+                                        </li>
+                                        <li>외출/이동용품 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>아기띠/슬링/힙시트</li>
+                                                <li>유모차시트/커버</li>
+                                                <li>유모차악세서리</li>
+                                                <li>유모차블랑켓/목쿠션</li>
+                                                <li>자동차용품</li>
+                                                <li>유모차</li>
+                                                <li>카시트</li>
+                                                <li>기저귀파우치/가방</li>
+                                                <li>미아방지팔찌/명찰/브로치</li>
+                                            </ul>
+                                        </li>
+                                        <li>수유/이유용품 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>젖병</li>
+                                                <li>턱받이</li>
+                                                <li>컵/물병/보온병</li>
+                                                <li>이유식기/세트</li>
+                                                <li>유아수저/젓가락/포크</li>
+                                                <li>이유식보관용기/조리도구</li>
+                                                <li>유아식탁/의자/테이블메트</li>
+                                                <li>수유쿠션/가리개</li>
+                                                <li>노리개/치발기</li>
+                                            </ul>
+                                        </li>
+                                        <li>위생/안전용품 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>목욕용품</li>
+                                                <li>기저귀</li>
+                                                <li>유아변기/기저귀매트</li>
+                                                <li>물티슈/살균스프레이</li>
+                                                <li>유아세제/세탁비누</li>
+                                                <li>손세정제</li>
+                                                <li>체온계/밴드</li>
+                                                <li>안전용품</li>
+                                                <li>위생용품</li>
+                                            </ul>
+                                        </li>
+                                        <li>키즈뷰티 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>배이비/키즈스킨케어</li>
+                                            </ul>
+                                        </li>
+                                        <li>임신/출산 <span> > </span>
+                                            <ul class="category_P category_C">
+                                                <li>전체 <span> > </span></li>
+                                                <li>축하선물</li>
+                                                <li>DIY/태교</li>
+                                                <li>성장기록앨범/액자</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>음반</li>
+                                <li>영상</li>
+                                <li>캐릭터 상품관</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li class="item item_red"><a href="sub.html">음반·영상</a></li>
+                    <li class="item item_red"><a href="sub.html">오늘만특가</a></li>
+                    <li class="item item_gray"><a href="#">책마마</a></li>
+                    <li class="item item_gray"><a href="#">봄앤홈</a></li>
+                    <li class="item item_gray"><a href="#">봄다꾸</a></li>
+                    <li class="item item_gray"><a href="#">3월 추천템</a></li>
+                    <li class="item item_gray"><a href="#">콜라보굿즈</a></li>
+                    <li class="item item_gray"><a href="#">바로펀딩</a></li>
+                </ul>
+
+                <!-- 두번째 카테고리 -->
+                <ul class="menu2">
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">신상품</a></li>
+                    <li><a href="#">무료배송</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="slidewrap">
+        <div class="banner_wraper">
+            <ul class="slide">
+                <li>
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+
+                    <div class="bannerimg">
+                        <div class="bannerMainImg"></div>
+                        <div class="product_info">
+                            <div class="event"></div>
+                            <div class="product_info_main"><br></div>
+                            <div class="product_info_bottom"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
+        </div>
+    </div>
+
+    <section>
+        <div class="section_wrapper">
+            <!--아이콘 메뉴-->
+            <div class="menu_icon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+
+
+
+            <!--주간 인기 + 월간 인기-->
+            <div class="hot">
+                <div class="hot_index">
+                    <span>주간 인기</span>
+                    <span>월간 인기</span>
+                </div>
+
+                <!--prodocut box-->
+                <div class="week1">
+                    <div class="weekbox">
+                        <div class="product_img"></div>
+
+                        <div class="product_info">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </div>
+                    </div>
+
+                    <div class="weekbox">
+                        <div class="product_img"></div>
+
+                        <div class="product_info">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </div>
+                    </div>
+
+                    <div class="weekbox">
+                        <div class="product_img"></div>
+
+                        <div class="product_info">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </div>
+                    </div>
+
+                    <div class="weekbox">
+                        <div class="product_img"></div>
+
+                        <div class="product_info">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </div>
+                    </div>
+
+                    <div class="weekbox">
+                        <div class="product_img"></div>
+
+                        <div class="product_info">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- 오늘만 특가 -->
+            <div class="today_sale">
+                <div class="td_title">
+                    <h2>오늘만 특가</h2>
+                    <h2 id="timer"></h2>
+                    <p><span>남았어요!</span></p>
+
+                    <a href="#">더 보기 > </a>
+                </div>
+
+                <div class="tdbox">
+                    <div class="td_img">
+                        <a href="#">
+                            <img src="img/todaysale/w3.jpg" alt="sale1">
+                        </a>
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p>good-choice</p>
+
+                            <h5>기분좋은선택 프리미엄 엠보싱 물티슈 80매x10팩</h5>
+
+                            <span class="discount">65%</span>
+                            <span class="last_price">10,500</span>
+                            <span class="origin_price">29,900</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="tdbox">
+                    <div class="td_img">
+                        <a href="#">
+                            <img src="img/todaysale/w15.jpg" alt="sale2">
+                        </a>
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p>Faber-Castell</p>
+
+                            <h5>[파버카스텔]카카오 프렌즈 그립 만년필세트</h5>
+
+                            <span class="discount">43%</span>
+                            <span class="last_price">19,900</span>
+                            <span class="origin_price">35,000</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="tdbox">
+                    <div class="td_img">
+                        <a href="#">
+                            <img src="img/todaysale/m5.jpg" alt="sale3">
+                        </a>
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p>Pulio</p>
+
+                            <h5>[풀리오]목 어깨 마사지기 V2(25년형)/파우치 증정</h5>
+
+                            <span class="discount">47%</span>
+                            <span class="last_price">89,000</span>
+                            <span class="origin_price">169,000</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- 중간 이미지 배너 -->
+            <div class="banner_img_middle">
+                <ul class="middle_banner_slider">
+                    <li><img src="img/middleslider/b1.jpg" alt=""></li>
+                    <li><img src="img/middleslider/b2.jpg" alt=""></li>
+                    <li><img src="img/middleslider/b3.jpg" alt=""></li>
+                    <li><img src="img/middleslider/b4.jpg" alt=""></li>
+                </ul>
+            </div>
+
+
+
+
+
+            <!-- 오늘의 쇼핑 추천 -->
+            <div class="today_recommend">
+                <div class="td_title">
+                    <h2>오늘의 쇼핑 추천</h2>
+                    <p>최근 본 상품의 연관 상품</p>
+                </div>
+
+                <div class="reco_product">
+                    <div class="reco_img">
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reco_product">
+                    <div class="reco_img"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+
+                            <h5></h5>
+
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                            <span class="origin_price"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="reset_recommend">
+                    <a href="#">
+                        <img src="img/reseticon.png" alt="reseticon">
+                        다른 추천보기 1/3
+                    </a>
+                </div>
+            </div>
+
+            <!-- 기획전 01 -->
+            <div class="renewal_01">
+                <div class="ex1">
+
+                    <div class="ex1_1">
+                        <div class="exhibition_head_info"></div>
+                        <div class="re_main_image"></div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="ex1_1">
+                        <div class="exhibition_head_info"></div>
+                        <div class="re_main_image"></div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="ex1_1">
+                        <div class="exhibition_head_info"></div>
+                        <div class="re_main_image"></div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- 새로 들어온 상품 -->
+            <div class="new_in">
+                <h1>새로 들어온 상품</h1>
+
+                <div class="new_in_box">
+                    <a href="#">
+                        <img src="img/newIN/n2.jpg" alt="img">
+                    </a>
+
+                    <div class="product_info">
+                        <h4>편안함 속에 담긴 <br> 고급스러움</h4>
+                        <span>가볍게 입어도 돋보이는 클래식 감성</span>
+                    </div>
+                </div>
+                <div class="new_in_box">
+                    <a href="#">
+                        <img src="img/newIN/n1.jpg" alt="img">
+                    </a>
+
+                    <div class="product_info">
+                        <h4>스테들러 <br>2025년 한정판</h4>
+                        <span>헥사고날 딥블루/골드 에디션 3만원대+무료각인</span>
+                    </div>
+                </div>
+                <div class="new_in_box">
+                    <a href="#">
+                        <img src="img/newIN/n3.jpg" alt="img">
+                    </a>
+
+                    <div class="product_info">
+                        <h4>두꺼운 종아리부터 <br>허벅지까지</h4>
+                        <span>풀리지 하나로 다리 전체 밀착 케어</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 종료 임박 기획전-->
+            <div class="close">
+                <div class="close_title">
+                    <h2>종료 임박 기획전</h2>
+                    <p>일주일도 안남았어요!</p>
+                </div>
+
+                <div class="closebox">
+                    <div class="img_box">
+                        <a href="#">
+                            <img src="img/c13.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="daybox">
+                        <p>6일 남음</p>
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <span>유럽 100년의 전통, 아스트라</span>
+                            <p>2025.03.24~2025.04.06</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="closebox">
+                    <div class="img_box">
+                        <a href="#">
+                            <img src="img/br13.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="daybox">
+                        <p>6일 남음</p>
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <span>세상에서 제일 가벼운 가구</span>
+                            <p>2025.03.21~2025.04.06</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="closebox">
+                    <div class="img_box">
+                        <a href="#">
+                            <img src="img/cc2.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="daybox">
+                        <p>4일 남음</p>
+                    </div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <span>#꼼지락 다이노 #티라노 #키링 #인형</span>
+                            <p>2025.03.18~2025.04.04</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 기획전 02 -->
+            <div class="renewal_02">
+                <div class="ex1">
+
+                    <div class="ex1_1">
+                        <div class="exhibition_head_info"></div>
+                        <div class="re_main_image"></div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="ex1_1">
+                        <div class="exhibition_head_info"></div>
+                        <div class="re_main_image"></div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="ex1_1">
+                        <div class="exhibition_head_info"></div>
+                        <div class="re_main_image"></div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="re_detail">
+                            <div class="re_img"></div>
+
+                            <div class="product_info">
+                                <a href="#">
+                                    <p></p>
+                                    <h5></h5>
+                                    <span class="discount"></span>
+                                    <span class="last_price"></span>
+                                    <span class="origin_price"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            <!-- 브랜드 기획전 -->
+            <div class="brand">
+                <div class="brand_title">
+                    <h2>브랜드 기획전</h2>
+
+                    <a href="#">펭수</a>
+                    <a href="#">로이텀</a>
+                    <a href="#">제브라</a>
+                    <a href="#">스테들러</a>
+                    <a href="#">페이퍼팝</a>
+                    <a href="#">이킵먼트</a>
+                    <a href="#">슬리피솔</a>
+                    <a href="#">매니어리들</a>
+                    <a href="#">깜냥</a>
+                    <a href="#">아리부바</a>
+                </div>
+
+                <div class="brandimgbox">
+                    <div class="img_box">
+                        <a href="#">
+                            <img src="img/brandExhitibition/br1.jpg" alt="img">
+                        </a>
+                    </div>
+
+                    <div class="titlebox">
+                        <p class="titlebox1">펭하-! 스터디 메이트는 처음이지?</p>
+                        <p class="titlebox2">교보문고XEBS[듄듄문고] 학교생활 팽수 독서 굿즈</p>
+                    </div>
+                </div>
+
+                <div class="brandimgbox2">
+                    <a href="#">
+                        <img src="img/brandExhitibition/br2.jpg" alt="img">
+                    </a>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p>PENGSOO</p>
+
+                            <h6>[듄듄문고]팽수 패브릭 북커버 파우치</h6>
+
+                            <div class="product_info_detail">
+                                <span class="discount">5%</span>
+                                <span class="last_price">17,900</span>
+                                <span class="origin_price">18,900</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="brandimgbox3">
+                    <a href="#">
+                        <img src="img/brandExhitibition/br3.jpg" alt="img">
+                    </a>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p>PENGSOO</p>
+
+                            <h6>[듄듄문고]펭수 인덱스 마그네틱 북마크</h6>
+
+                            <div class="product_info_detail">
+                                <span class="discount">28%</span>
+                                <span class="last_price">2,100</span>
+                                <span class="origin_price">2,900</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 카테고리별 랭킹 -->
+            <div class="lanking">
+                <h2>카테고리별 랭킹</h2>
+
+                <div class="lanklist">
+                    <a href="#">필기구</a>
+                    <a href="#">디자인문구</a>
+                    <a href="#">미술/오피스</a>
+                    <a href="#">독서용품</a>
+                    <a href="#">전시/굿즈</a>
+                    <a href="#">디지털-tech</a>
+                    <a href="#">홈/라이프</a>
+                    <a href="#">여행/취미</a>
+                </div>
+
+                <!-- 랭킹 -->
+                <div class="lankmain"> <!-- 1 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 2 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 3 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 4 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 5 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 6 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 7 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 8 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 9 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lankmain"> <!-- 10 -->
+                    <div class="lankimg"></div>
+
+                    <div class="product_info">
+                        <a href="#">
+                            <p></p>
+                            <h5></h5>
+                            <span class="discount"></span>
+                            <span class="last_price"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lankmore">
+                    <a href="#">카테고리 랭킹 더보기 ></a>
+                </div>
+            </div>
+
+
+
+            <!-- 하단 이미지 배너 -->
+            <div class="banner_img_bottom">
+                <ul class="bottom_banner_slider">
+                    <li><img src="img/middleslider/b1.jpg" alt=""></li>
+                    <li><img src="img/middleslider/b2.jpg" alt=""></li>
+                    <li><img src="img/middleslider/b3.jpg" alt=""></li>
+                    <li><img src="img/middleslider/b4.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_header">
+            <div class="footer_header_wrap">
+                <div class="fheader1">
+                    <span>공지사항</span>
+                    <a href="#" class="maintxt">[공지]교보북클럽 메가박스 제휴 혜택 종료(4/1~)</a>
+                    <a href="#" class="moretxt">
+                        <span>더보기</span>
+                    </a>
+                </div>
+                <div class="fheader2">
+                    <span>당첨자발표</span>
+                    <a href="#" class="maintxt">KiiiKiii(키키) The 1st EP[UNCUT GEM] Showcase 당첨자발표</a>
+                    <a href="#" class="moretxt">
+                        <span>더보기</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_wrapper">
+            <div class="footer_body">
+                <div class="footer_logo">
+                    <a href="#">
+                        <img src="img/kboicon.png" alt="logo">
+                    </a>
+                </div>
+
+                <div class="footer_right">
+                    <div class="footer_menu_box">
+                        <a href="#">회사소개</a>
+                        <p>|</p>
+                        <a href="#">이용약관</a>
+                        <p>|</p>
+                        <a href="#">개인정보처리방침</a>
+                        <p>|</p>
+                        <a href="#">청소년보호정책</a>
+                        <p>|</p>
+                        <a href="#">대량주문안내</a>
+                        <p>|</p>
+                        <a href="#">상품입점문의</a>
+                        <p>|</p>
+                        <a href="#">협력사여러분</a>
+                        <p>|</p>
+                        <a href="#">채용정보</a>
+                        <p>|</p>
+                        <a href="#">광고소개</a>
+                    </div>
+
+                    <div class="footer_info_box">
+                        <p>(주)교보문고</p>
+                        <P>|</P>
+                        <p>서울특별시 종로구 종로1</p>
+                        <P>|</P>
+                        <p>대표이사:허정도</p>
+                        <P>|</P>
+                        <p>사업자등록번호:102-81-11670</p>
+                        <br>
+                        <p>대표자(발신부담):1544-1900(핫트랙스 1661-1112)</p>
+                        <P>|</P>
+                        <p>FAX:0502-987-5711(지역번호 공통)</p>
+                        <P>|</P>
+                        <p>서울특별시 통신판매업소신고번호:제653호</p>
+
+                        <a href="#">사업자정보확인></a>
+                    </div>
+
+                    <div class="copyright">ⓒ KYOBO BOOK CENTRE</div>
+                </div>
+                <div class="footer_left">
+                    <div class="footer_service">
+                        <span>토스페이먼츠 구매안전서비스</span>
+                        <a href="#">서비스 가입 확인></a>
+                        <p>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 토스페이먼츠의 구매안전서비스를 이용하실 수 있습니다.</p>
+                    </div>
+
+                    <div class="footer_mark">
+                        <a href="#">
+                            <img src="img/ISMS.png" alt="ismsicon">
+                            정보보호관리체계 <br> ISMS 인증획득
+                        </a>
+
+                        <p>
+                            [인증범위]인터넷 교보문고 및 브랜드 서비스 운영
+                            <br>
+                            [유효기간] 2023.11.15 ~ 2026.11.14
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

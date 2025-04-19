@@ -1,0 +1,61 @@
+[{
+	"src" : "lanking/lank8_1.jpg",
+	"name" : "DEDERIT",
+	"detail" : "[데데리트]귀여운 책 포크 아이스크림 핑구 인형 키링",
+	"discount" : "",
+	"price" : "27,700"
+},{
+	"src" : "lanking/lank8_2.jpg",
+	"name" : "RETOGMS",
+	"detail" : "레토 미끄럼방지 강아지 매트 10장 1세트 LPM-P04",
+	"discount" : "56%",
+	"price" : "10,900"
+},{
+	"src" : "lanking/lank8_3.jpg",
+	"name" : "DEDERIT",
+	"detail" : "[데데리트]액막이 필구 캐릭터 펭귄 밧줄 인형 키링",
+	"discount" : "",
+	"price" : "7,700"
+},{
+	"src" : "lanking/lank8_4.jpg",
+	"name" : "MAny a Little",
+	"detail" : "미피패밀리_멜빵 미피 키링인형",
+	"discount" : "11%",
+	"price" : "8,000"
+},{
+	"src" : "lanking/lank8_5.png",
+	"name" : "YLAB STORE",
+	"detail" : "스터디그룹 리무버블 스티커",
+	"discount" : "",
+	"price" : "9,000"
+},{
+	"src" : "lanking/lank8_6.jpg",
+	"name" : "SMISKI",
+	"detail" : "[드림즈]스미스키 선데이(Sunday) 시리즈박스",
+	"discount" : "",
+	"price" : "129,600"
+},{
+    "src" : "lanking/lank8_7.jpg",
+	"name" : "hobby's",
+	"detail" : "황금빛 바다위 혹동고래 직소퍼즐 1000피스",
+	"discount" : "10%",
+	"price" : "19,800"
+},{
+	"src" : "lanking/lank8_8.jpg",
+	"name" : "GITIS",
+	"detail" : "지티스 해외여행 멀티어댑터 초고속 여행용 전세계",
+	"discount" : "",
+	"price" : "32,800"
+},{
+	"src" : "lanking/lank8_9.jpg",
+	"name" : "SMISKI",
+	"detail" : "[드림즈]스미스키 히퍼스(hippers)시리즈박스",
+	"discount" : "10%",
+	"price" : "22,500"
+},{
+	"src" : "lanking/lank8_10.jpg",
+	"name" : "PUZZLESARANG",
+	"detail" : "겨울왕국1-기대 판퍼즐 디즈니 캐릭터 80조각",
+	"discount" : "",
+	"price" : "7,000"
+}]

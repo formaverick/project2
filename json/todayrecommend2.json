@@ -1,0 +1,57 @@
+[{
+	"src" : "todayrecommed/reco2_1.jpg",
+	"name" : "STAEDTLER",
+	"detail" : "[한정반]스테들러 헥사고날 샤프_딥블루/골드(+각인)",
+	"discount" : "14%",
+	"price" : "38,900",
+	"originalprice" : "45,000"
+},{
+	"src" : "todayrecommed/reco2_2.jpg",
+	"name" : "beside books",
+	"detail" : "파란 마음 이북 리더기 파우치",
+	"discount" : "23%",
+	"price" : "18,500",
+	"originalprice" : "24,000"
+},{
+	"src" : "todayrecommed/reco2_3.jpg",
+	"name" : "unisuit",
+	"detail" : "고프로 히어로13 올레포빅(전/후면/렌즈)필름 각 3매",
+	"discount" : "30%",
+	"price" : "9,030",
+	"originalprice" : "12,900"
+},{
+	"src" : "todayrecommed/reco2_4.jpg",
+	"name" : "hyeseul",
+	"detail" : "북커버-오만과 편견(다아시의 고백)",
+	"discount" : "10%",
+	"price" : "21,600",
+	"originalprice" : "24,000"
+},{
+	"src" : "todayrecommed/reco2_5.jpg",
+	"name" : "UNIQUECITY",
+	"detail" : "[1+1]자유생활 수납천재 마카롱 필통(3color 택)",
+	"discount" : "79%",
+	"price" : "10,200",
+	"originalprice" : "49,000"
+},{
+"src" : "todayrecommed/reco2_6.jpg",
+	"name" : "indigo",
+	"detail" : "기본 대학일지(대학생플래너,6개월,주간)",
+	"discount" : "",
+	"price" : "12,800",
+	"originalprice" : ""
+},{
+	"src" : "todayrecommed/reco2_7.jpg",
+	"name" : "Josundal Town",
+	"detail" : "크라운 버터와플 316g 2개",
+	"discount" : "",
+	"price" : "10,000",
+	"originalprice" : ""
+},{
+	"src" : "todayrecommed/reco2_8.jpg",
+	"name" : "koreasusan",
+	"detail" : "[대한민국농수산]비세척 해남 꿀 고구마[비세척]꿀고구마(한입)5Kg",
+	"discount" : "",
+	"price" : "11,900",
+	"originalprice" : ""
+}]

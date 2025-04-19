@@ -1,0 +1,61 @@
+[{
+	"src" : "lanking/lank2_1.jpg",
+	"name" : "Infinite Challenge",
+	"detail" : "MBC무한도전 20주년 2025캘린더",
+	"discount" : "",
+	"price" : "33,000"
+},{
+	"src" : "lanking/lank2_2.jpg",
+	"name" : "NELNA",
+	"detail" : "[클래식 재입고]낼나 포커스 온 타이머",
+	"discount" : "6%",
+	"price" : "33,000"
+},{
+	"src" : "lanking/lank2_3.jpg",
+	"name" : "HOTTRACKS",
+	"detail" : "[교보문고X컴포지션X미니모니]빛의 조각 노트",
+	"discount" : "6%",
+	"price" : "15,900"
+},{
+	"src" : "lanking/lank2_4.jpg",
+	"name" : "HOTTRACKS",
+	"detail" : "[교보문고X컴포지션X미니모니]나의 리듬 노트",
+	"discount" : "8%",
+	"price" : "15,500"
+},{
+	"src" : "lanking/lank2_5.jpg",
+	"name" : "HOTTRACKS",
+	"detail" : "[단독]교보문고X델리 봄을 담은 정리천재 문구세트",
+	"discount" : "37%",
+	"price" : "25,900"
+},{
+	"src" : "lanking/lank2_6.jpg",
+	"name" : "Ullty",
+	"detail" : "울티 플로우 디지털 독서 타이머",
+	"discount" : "27%",
+	"price" : "24,800"
+},{
+"src" : "lanking/lank2_7.jpg",
+	"name" : "HOTTRACKS",
+	"detail" : "[교보문고X미니모니]나의 리듬 누빔 펜파우치",
+	"discount" : "10%",
+	"price" : "17,900"
+},{
+	"src" : "lanking/lank2_8.jpg",
+	"name" : "puhen",
+	"detail" : "퓨핸 비주얼 타이머 무소음 구글 뽀모도로 타이머",
+	"discount" : "34%",
+	"price" : "15,800"
+},{
+	"src" : "lanking/lank2_9.jpg",
+	"name" : "HOTTRACKS",
+	"detail" : "[교보문고X미니모니]빛의 조각 누빔 펜파우치",
+	"discount" : "10%",
+	"price" : "17,900"
+},{
+	"src" : "lanking/lank2_10.jpg",
+	"name" : "7321 DESIGN",
+	"detail" : "행운의 스터디플래너-100DAYS",
+	"discount" : "20%",
+	"price" : "5,760"
+}]

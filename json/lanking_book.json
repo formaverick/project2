@@ -1,0 +1,61 @@
+[{
+	"src" : "lanking/lank4_1.jpg",
+	"name" : "norit",
+	"detail" : "노르잇 투명독서대 높이조절 PR01A",
+	"discount" : "10%",
+	"price" : "28,900"
+},{
+	"src" : "lanking/lank4_2.jpg",
+	"name" : "RECOMMA",
+	"detail" : "[무료각인]오브리즈 휴대용독서대+파우치set(사은품)",
+	"discount" : "22%",
+	"price" : "17,900"
+},{
+	"src" : "lanking/lank4_3.jpg",
+	"name" : "beside books",
+	"detail" : "파란 마음 북커버",
+	"discount" : "22%",
+	"price" : "19,500"
+},{
+	"src" : "lanking/lank4_4.jpg",
+	"name" : "COMPOSITION STUDIO",
+	"detail" : "[교보문고X컴포지션스튜디오]포켓 북커버",
+	"discount" : "25%",
+	"price" : "28,500"
+},{
+	"src" : "lanking/lank4_5.jpg",
+	"name" : "Ullty",
+	"detail" : "울티 플로우 독서등 접이식 스탠드",
+	"discount" : "21%",
+	"price" : "38,600"
+},{
+	"src" : "lanking/lank4_6.jpg",
+	"name" : "SOYMIX",
+	"detail" : "바른자세 높이조절 각도조절 독서대 북스탠드 SOME2VW",
+	"discount" : "57%",
+	"price" : "29,900"
+},{
+    "src" : "lanking/lank4_7.jpg",
+	"name" : "beside books",
+	"detail" : "별의 휴식 북커버",
+	"discount" : "14%",
+	"price" : "22,500"
+},{
+	"src" : "lanking/lank4_8.jpg",
+	"name" : "SOYMIX",
+	"detail" : "[교보문고X소이믹스]딥 포레스트 가죽 북커버",
+	"discount" : "47%",
+	"price" : "9,500"
+},{
+	"src" : "lanking/lank4_9.jpg",
+	"name" : "beside books",
+	"detail" : "THE READER 북커버",
+	"discount" : "10%",
+	"price" : "22,500"
+},{
+	"src" : "lanking/lank4_10.jpg",
+	"name" : "SOYMIX",
+	"detail" : "[1+1]소이믹스 러브썸 가죽 북커버(북마크 포함)",
+	"discount" : "61%",
+	"price" : "14,900"
+}]

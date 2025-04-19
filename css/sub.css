@@ -1,0 +1,905 @@
+@charset "utf-8";
+
+#sub {
+    width: 1440px;
+    height: 14740.2px;
+    margin: 0 auto;
+    /* background-color: rgb(255, 187, 187); */
+}
+
+/* 상단 메뉴 */
+#sub .submenu {
+    width: 1440px;
+    height: 47px;
+    /* background-color: aliceblue; */
+    float: left;
+    margin-top: 20px;
+}
+
+#sub .submenu .submenubar {
+    width: 1200px;
+    height: 27px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.submenu .submenubar>li {
+    font-size: 13px;
+    font-weight: 500;
+    /* color: #767676; */
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#sub .submenu .submenubar img {
+    width: 16px;
+    height: 16px;
+    margin: 6px 0 0 0px;
+}
+
+
+/* 주문 창 */
+#sub .subdetailhead {
+    width: 1440px;
+    height: 932px;
+
+    float: left;
+    margin-top: 20px;
+}
+
+.subdetailhead .detailhead {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.subdetailhead .detailhead .mainbox {
+    width: 640px;
+    height: 832px;
+
+    float: left;
+}
+
+.subdetailhead .detailhead .mainbox>img {
+    width: 640px;
+    height: 640px;
+    border-radius: 12px;
+}
+
+.subdetailhead .detailhead .mainbox>.bottomimgbox {
+    width: 640px;
+    height: 80px;
+
+    float: left;
+    margin-top: 10px;
+}
+
+.subdetailhead .detailhead .mainbox>.bottomimgbox>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+.subdetailhead .detailhead .mainbox>.bottomimgbox>img:first-child {
+    border: 2px solid #000;
+}
+
+.subdetailhead .detailhead .mainbox>.bottomimgbox>img:not(:first-child) {
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.subdetailhead .detailhead .mainbox .quick_area {
+    width: 640px;
+    height: 82px;
+    font-size: 14px;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    background-color: #fff;
+    float: left;
+    margin-top: 20px;
+}
+
+.subdetailhead .detailhead .mainbox .quick_area>a>img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d5d5d5;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 20px;
+}
+
+.subdetailhead .detailhead .mainbox .quick_area>a>span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    float: left;
+    margin: 20px 0 0 0px;
+}
+
+/* 주문 박스 */
+.subdetailhead .detailhead .order_box {
+    width: 480px;
+    height: 765.6px;
+    float: right;
+
+}
+
+/*주문 박스 head*/
+.subdetailhead .detailhead .order_box>.order_box_detail {
+    width: 480px;
+    height: 123.6px;
+    float: left;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subdetailhead .detailhead .order_box>.order_box_detail .detail_info {
+    width: 100%;
+    height: 22px;
+    font-size: 14px;
+    color: #595959;
+    margin-bottom: 8px;
+}
+
+.subdetailhead .detailhead .order_box>.order_box_detail .detail_info img {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+}
+
+.subdetailhead .detailhead .order_box>.order_box_detail>.review_box {
+    width: 480px;
+    height: 20px;
+
+    margin-top: 15px;
+}
+
+.subdetailhead .detailhead .order_box>.order_box_detail>.review_box img {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 4px;
+}
+
+.subdetailhead .detailhead .order_box>.order_box_detail>.review_box span {
+    font-size: 14px;
+    color: #767676;
+    margin-left: 4px;
+}
+
+
+/*주문 박스 가격*/
+.subdetailhead .detailhead .order_box .order_box_price {
+    width: 100%;
+    height: 126.8px;
+    float: right;
+
+    border-top: 1px solid #eaeaea;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price .discount {
+    font-size: 26px;
+    color: #da2128;
+    font-weight: 700;
+    display: inline-block;
+    margin: 25px 0 10px 0;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price .last_price {
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+    display: inline-block;
+    margin: 25px 0 10px 0;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price .origin_price {
+    font-size: 16px;
+    color: #767676;
+    display: inline-block;
+    margin: 25px 0 10px 0;
+    text-decoration: line-through;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price .badge {
+    width: 34px;
+    height: 18px;
+    background-color: #eaeaea;
+    border-radius: 13px;
+    color: #767676;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub {
+    width: 100%;
+    height: 200.8px;
+    float: right;
+
+    border-top: 1px solid #eaeaea;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub>table {
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #767676;
+    font-weight: 400;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub table tr td {
+    padding: 10px 0 0 0px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub>table tr img {
+    width: 22px;
+    height: 22px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub table tr .price_detail {
+    font-weight: bold;
+    color: #000;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub table tr .price_detail_sub_one {
+    font-size: 12px;
+    color: #767676;
+    padding: 5px 0 0 0px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub table tr .price_detail_sub_two {
+    font-size: 13px;
+    color: #595959;
+}
+
+.subdetailhead .detailhead .order_box .order_box_price_sub table tr .price_detail_sub_two a:hover {
+    color: #da2128;
+}
+
+/*주문 박스 선택 박스*/
+.subdetailhead .detailhead .order_box .order_box_select {
+    width: 100%;
+    height: 146.8px;
+    float: right;
+
+    border-top: 1px solid #eaeaea;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table {
+    width: 100%;
+    height: 86px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table tr td {
+    padding: 0 20px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table tr td .order_button {
+    width: 120px;
+    height: 36px;
+    background-color: #fff;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table tr td a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: none;
+    float: left;
+    margin-left: 3px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table tr td a img {
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table tr td .order_button input {
+    border: none;
+    width: 34px;
+    height: 34px;
+    text-align: centers;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subdetailhead .detailhead .order_box .order_box_select table tr td:last-child {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 주문 박스 마지막 버튼 */
+.subdetailhead .detailhead .order_box .order_box_last {
+    width: 100%;
+    height: 132.6px;
+    float: right;
+
+    border-top: 2px solid #000;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .last_price {
+    width: 100%;
+    height: 28px;
+    margin-top: 28px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .last_price .price_info {
+    float: left;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .last_price .sum_price_info {
+    float: right;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .last_price .sumprice {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .last_price span:last-child {
+    font-size: 20px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .last_price .price_info .count {
+    color: #da2128;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns {
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns button {
+    width: 156px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    /* float: left;
+    margin-right: 4px; */
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns .giftbtn {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    float: left;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns .giftbtn:hover {
+    background-color: hsla(0, 0%, 80%, 0.596);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns button img {
+    width: 20px;
+    height: 20px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns .cartbtn {
+    border: 1px solid #da2128;
+    background-color: #fff;
+    color: #da2128;
+    border-radius: 6px;
+    float: left;
+    margin-left: 5.5px;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns .cartbtn:hover {
+    background-color: hsla(358, 74%, 49%, 0.322);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns .buybtn {
+    border: 1px solid #da2128;
+    background-color: #da2128;
+    color: #fff;
+    border-radius: 6px;
+    float: right;
+}
+
+.subdetailhead .detailhead .order_box .order_box_last .btns .buybtn:hover {
+    filter: brightness(0.8);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* 상세설명 선택 메뉴 */
+#sub .subdetailmenu {
+    width: 100%;
+    height: 60px;
+
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 66px;
+    border-bottom: 1px solid #cecece;
+}
+
+#sub .subdetailmenu .info_head {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.subdetailmenu .info_head a {
+    display: flex;
+    width: 240px;
+    height: 60px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+.subdetailmenu .info_head a:not(:first-child) {
+    color: #595959;
+    border-bottom: none;
+}
+
+/* 상세설명 */
+#sub .subdetailbody {
+    width: 1440px;
+    height: 11221.9px;
+    float: left;
+}
+
+/* 배송지 설명 */
+#sub .subdetailbody .info_area {
+    width: 1200px;
+    height: 189px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+#sub .subdetailbody .info_area img {
+    width: 23px;
+    height: 23px;
+    float: left;
+}
+
+#sub .subdetailbody .info_area .info_area_one {
+    width: 1120px;
+    height: 23px;
+    float: left;
+    margin: 40px 0 0 40px;
+}
+
+#sub .subdetailbody .info_area .info_bold {
+    display: flex;
+    width: 250px;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-left: 8px;
+}
+
+#sub .subdetailbody .info_area .info_gray {
+    display: flex;
+    float: left;
+    font-size: 14px;
+    color: #595959;
+    line-height: 23px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+#sub .subdetailbody .info_area .info_area_one .info_gray>span {
+    display: flex;
+    float: left;
+    font-size: 14px;
+    color: #474C98;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+#sub .subdetailbody .info_area .info_area_two {
+    width: 1120px;
+    height: 23px;
+    float: left;
+    margin: 20px 0 0 40px;
+}
+
+/* 메인 상세설명 */
+#sub .subdetailbody .info_body {
+    width: 1200px;
+    height: 10455.4px;
+    margin: 0 auto;
+}
+
+.info_body .info_main_img {
+    width: 1120px;
+    height: 10355.4px;
+    margin: 0 auto;
+}
+
+.info_body .info_main_img img {
+    margin-left: 120px;
+}
+
+#sub .subdetailbody .button {
+    width: 1200px;
+    height: 50px;
+    margin: 0 0 0 120px;
+
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.subdetailbody .button img {
+    width: 22px;
+    height: 22px;
+}
+
+/* 하단 상세 정보 */
+#sub .subdetailbody .info_wrap {
+    width: 1200px;
+    height: 387.53px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 40px;
+
+    font-size: 14px;
+}
+
+.subdetailbody .info_wrap table {
+    width: 1120px;
+    height: 265.6px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.subdetailbody .info_wrap table tr td:first-child {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px;
+}
+
+.subdetailbody .info_wrap table tr td:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #595959;
+}
+
+
+/* 리뷰박스 */
+#sub .subreviewbox {
+    width: 1440px;
+    height: 324.4px;
+    
+    float: left;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subreviewbox .review_box_wrap {
+    width: 1200px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+.subreviewbox .review_box_wrap .review_box_title {
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+.subreviewbox .review_box_wrap .review_box_title>h2 {
+    display: block;
+    float: left;
+}
+
+.subreviewbox .review_box_wrap .review_box_title a img {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-left: 10px;
+}
+
+.subreviewbox .review_box_wrap .review_box_title .review_box_title_right {
+    width: 308.750px;
+    height: 30px;
+    float: right;
+
+    font-size: 13px;
+    color: #767676;
+}
+
+.subreviewbox .review_box_wrap .review_box_title .review_box_title_right>p {
+    font-size: 13px;
+    color: #767676;
+    font-weight: 400;
+    line-height: 39px;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.subreviewbox .review_box_wrap .review_box_title .review_box_title_right>button {
+    color: #fff;
+    font-size: 13px;
+    background-color: #292929;
+    border: 1px solid #292929;
+    border-radius: 6px;
+    padding: 6px 10px;
+    display: block;
+    float: right;
+}
+
+.subreviewbox .review_box_wrap .review_box_title .review_box_title_right>button:hover {
+    filter: brightness(0.6);
+    cursor: pointer;
+}
+
+.subreviewbox .review_box_wrap .review_box_sub {
+    width: 100%;
+    height: 179.8px;
+    float: left;
+    margin-top: 90px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #767676;
+    /* div 요소 세로 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subreviewbox .review_box_wrap .review_box_sub img {
+    width: 30px;
+    height: 30px;
+}
+
+.subreviewbox .review_box_wrap .review_box_sub span {
+    font-size: 13px;
+    color: #767676;
+}
+
+/* 큐앤에이 박스 */
+#sub .subqandabox {
+    width: 1440px;
+    height: 107.8px;
+    
+    float: left;
+    margin-top: 60px;
+}
+
+.subqandabox .qanda_box {
+    width: 1200px;
+    height: 47.8px;
+    
+    margin: 0 auto;
+
+    border-bottom: 1px solid #000;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subqandabox .qanda_box .qanda_box_right {
+    width: 385px;
+    height: 30px;
+    
+    float: right;
+    font-size: 13px;
+    color: #767676;
+    margin-top: -28px;
+}
+
+.subqandabox .qanda_box .qanda_box_right>p {
+    font-size: 13px;
+    color: #767676;
+    font-weight: 400;
+    line-height: 39px;
+    display: block;
+    margin-top: -5px;
+    
+    float: left;
+    margin-right: 16px;
+}
+
+.subqandabox .qanda_box .qanda_box_right>button {
+    color: #000000;
+    font-size: 13px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 10px;
+    display: block;
+    float: left;
+}
+
+.subqandabox .qanda_box .qanda_box_right>button:hover {
+    filter: brightness(0.6);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.subqandabox .qanda_box img {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+/* 배송/교환/반품 박스 */
+#sub .subservicebox {
+    width: 1440px;
+    height: 107.8px;
+    
+    float: left;
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subservicebox .service_box {
+    width: 1200px;
+    height: 47.8px;
+    
+    margin: 0 auto;
+
+    border-bottom: 1px solid #000;
+}
+
+.subservicebox .service_box img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: -28px;
+}
+
+/* 카테고리 Best */
+#sub .subbestbox {
+    width: 1440px;
+    height: 1560.4px;
+    
+    float: left;
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subbestbox .best_box {
+    width: 1236px;
+    height: 100%;
+    
+    margin: 0 auto;
+}
+
+.subbestbox .best_box .item_wrap {
+    width: 1236px;
+    height: 1532px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item {
+    width: 212.2px;
+    height: 348.60px;
+    display: block;
+    float: left;
+    
+    margin: 25px 15px 0 19.5px;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item>.product_img {
+    width: 212.2px;
+    height: 212.2px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item>.product_img>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item>.product_img>img:hover {
+    transform: scale(1.03);
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .product_info{
+    width: 100%;
+    height: 110px;
+    
+    float: left;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .product_info>a>p {
+    height: 12px;
+    font-size: 14px;
+    color: #767676;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin: 10px 0 5px 0;
+    
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .product_info>a>h5 {
+    display: block;
+    width: 100%;
+    height: 44px;
+    float: left;
+    
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .discount {
+    font-size: 16px;
+    color: #da2128;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin: 5px 7px 5px 0;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .last_price {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin: 5px 7px 5px 0;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .origin_price {
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin: 7px 7px 5px 0;
+    text-decoration: line-through;
+}
+
+.subbestbox .best_box .item_wrap .best_box_item .badge{
+    display: block;
+    width: 60.17px;
+    height: 21px;
+    float: left;
+    font-size: 12px;
+    color: #767676;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    margin-top: 6px;
+}

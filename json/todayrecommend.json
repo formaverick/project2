@@ -1,0 +1,57 @@
+[{
+	"src" : "todayrecommed/reco1.jpg",
+	"name" : "sabai sabai",
+	"detail" : "[28종]유럽시리즈 크리스탈 문진 인테리어 오브제",
+	"discount" : "18%",
+	"price" : "26,240",
+	"originalprice" : "32,000"
+},{
+	"src" : "todayrecommed/reco2.jpg",
+	"name" : "plusmall",
+	"detail" : "생활모음 레인코트 우비 남녀공용(카키)(사이즈L)",
+	"discount" : "",
+	"price" : "130,200",
+	"originalprice" : ""
+},{
+	"src" : "todayrecommed/reco3.jpg",
+	"name" : "UNI",
+	"detail" : "제트스트림 4&1 라이트터치 멀티펜_GLOSSY (0.5mm)",
+	"discount" : "20%",
+	"price" : "14,400",
+	"originalprice" : "18,000"
+},{
+	"src" : "todayrecommed/reco7.jpg",
+	"name" : "Urban Lithium",
+	"detail" : "카카오프렌즈 3in1 무선충전기(갤러시워치/애플워치)",
+	"discount" : "9%",
+	"price" : "49,900",
+	"originalprice" : "55,000"
+},{
+	"src" : "todayrecommed/w7.jpg",
+	"name" : "Infinite Challenge",
+	"detail" : "MBC 무한도전 20주년 2025 일력",
+	"discount" : "",
+	"price" : "33,000",
+	"originalprice" : ""
+},{
+"src" : "todayrecommed/reco4.jpg",
+	"name" : "UNIQUECITY",
+	"detail" : "깎지않는 무한 연필 15자루/20자루 세트 택",
+	"discount" : "76%",
+	"price" : "6,900",
+	"originalprice" : "29,000"
+},{
+	"src" : "todayrecommed/c9.jpg",
+	"name" : "besider books",
+	"detail" : "[한정수량]숲의 꿈 북커버",
+	"discount" : "",
+	"price" : "27,000",
+	"originalprice" : ""
+},{
+	"src" : "todayrecommed/w5.jpg",
+	"name" : "COMPOSITION STUDIO",
+	"detail" : "[교보문고x컴포지션스튜디오]포켓 북커버",
+	"discount" : "",
+	"price" : "38,000",
+	"originalprice" : ""
+}]

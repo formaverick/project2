@@ -1,0 +1,61 @@
+[{
+	"src" : "lanking/n1.jpg",
+	"name" : "SRAEDTLER",
+	"detail" : "[한정판]스테들러 헥사고날 샤프_딥블루/골드(+각인)",
+	"discount" : "11%",
+	"price" : "39,900"
+},{
+	"src" : "lanking/lank1_1.png",
+	"name" : "RECOMMA",
+	"detail" : "[무료각인]오브리즈 공방가죽 삼각필통 대용량 8color",
+	"discount" : "12%",
+	"price" : "14,800"
+},{
+	"src" : "lanking/lank1_2.jpg",
+	"name" : "SRAEDTLER",
+	"detail" : "[한정판]스테들러 헥사고날 샤프_딥블루/골드(+각인)",
+	"discount" : "11%",
+	"price" : "39,900"
+},{
+	"src" : "lanking/lank1_4.jpg",
+	"name" : "Faber-Castell",
+	"detail" : "[파버카스텔]더스트프리 지우개 10종 택",
+	"discount" : "20%",
+	"price" : "640"
+},{
+	"src" : "lanking/lank1_8.png",
+	"name" : "UNI",
+	"detail" : "[소량재입고]제트스트림 4&1 가리모쿠 멀티펜 한정판",
+	"discount" : "21%",
+	"price" : "31,500"
+},{
+	"src" : "lanking/lank1_3.jpg",
+	"name" : "UNI",
+	"detail" : "제트스트림 3색 멀티펜 SXE3-507(0.5/0.7택)",
+	"discount" : "20%",
+	"price" : "6,400"
+},{
+"src" : "lanking/lank1_6.jpg",
+	"name" : "ZEBRA",
+	"detail" : "[+new컬러]제브라 마일드 라이너/낱개(40color 택)",
+	"discount" : "31%",
+	"price" : "1,250"
+},{
+	"src" : "lanking/lank1_5.jpg",
+	"name" : "PILOT",
+	"detail" : "PILOT 파이롯트 쥬스업 다색볼펜 0.4mm(3색/4색)",
+	"discount" : "11%",
+	"price" : "39,900"
+},{
+	"src" : "lanking/lank1_7.jpg",
+	"name" : "UNI",
+	"detail" : "[25한정판]제트스트림 4&1 멀티펜 Bamboo (4color택)",
+	"discount" : "20%",
+	"price" : "20,000"
+},{
+	"src" : "lanking/lank1_10.jpg",
+	"name" : "Pentel",
+	"detail" : "[펜텔]아인 슈타인 샤프심(0.2/0.3/0.4/0.5/0.7/0.9)",
+	"discount" : "11%",
+	"price" : "39,900"
+}]

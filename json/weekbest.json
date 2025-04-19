@@ -1,0 +1,40 @@
+[{
+	"src" : "weekbest/w1.jpg",
+	"name" : "connectv",
+	"detail" : "[1+1] 파미고 엑스트라버진 올리브오일 500ml(총 2병)",
+	"discount" : "45%",
+	"price" : "30,500",
+	"originalprice" : "55,000"
+},
+{
+	"src" : "weekbest/w3.jpg",
+	"name" : "good-choice",
+	"detail" : "기분좋은선택 프리미엄 엠보싱 물티슈 80매x10팩",
+	"discount" : "65%",
+	"price" : "10,500",
+	"originalprice" : "29,900"
+},
+{
+	"src" : "weekbest/w2.jpg",
+	"name" : "norit",
+	"detail" : "노르잇 스탠드 노트북&태블릿 거치대 필기대 DR01A",
+	"discount" : "45%",
+	"price" : "34,900",
+	"originalprice" : "63,000"
+},
+{
+	"src" : "weekbest/w4.jpg",
+	"name" : "RECOMMA",
+	"detail" : "[무료각인]오브리즈 휴대용독서대+파우치set(사은품)",
+	"discount" : "18%",
+	"price" : "18,900",
+	"originalprice" : "22,900"
+},
+{
+	"src" : "weekbest/w5.jpg",
+	"name" : "COMPOSITION STDIO",
+	"detail" : "[교보문고X컴포지션스튜디오]포켓 북커버",
+	"discount" : "",
+	"price" : "38,000",
+	"originalprice" : ""
+}]

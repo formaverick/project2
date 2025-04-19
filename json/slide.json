@@ -1,0 +1,82 @@
+[
+	{
+		"slider" : [{
+			"src": "slidebanner/headImage1.jpg",
+			"event": "사은품",
+			"product": "제트스트림",
+			"product_br": "단독증정 이벤트",
+			"product_detail": "라이트터치 구매인증시 펜케이스+필사노트세트 증정!"
+		},
+		{
+			"src": "slidebanner/headImage2.jpg",
+			"event": "HOT",
+			"product": "교보문고 X 제브라",
+			"product_br": "Book & Study",
+			"product_detail": "24년 완판기록!다시 없을 필기구 가성비세트 바로펀딩 특별가!"
+		}]
+	},
+	{
+		"slider" : [{
+			"src": "slidebanner/headImage3.jpg",
+			"event": "HOT",
+			"product": "봄날에",
+			"product_br": "마음을 담아",
+			"product_detail": "마음을 전하는 편지엽서 모음전"
+		},
+		{
+			"src": "slidebanner/headImage4.jpg",
+			"event": "NEW",
+			"product": "리본으로 엮는",
+			"product_br": "봄날의 리듬",
+			"product_detail": "<바로펀딩>누하 서울의 첫 독서용품을 소개합니다."
+		}]
+	},
+	{
+		"slider" : [{
+			"src": "slidebanner/headImage5.jpg",
+			"event": "NEW",
+			"product": "봄 날의",
+			"product_br": "피크닉",
+			"product_detail": "봄바람 따라 떠나는 맛있는 피크닉 준비"
+		},
+		{
+			"src": "slidebanner/headImage6.jpg",
+			"event": "NEW",
+			"product": "자외선 완벽",
+			"product_br": "차단 솔루션",
+			"product_detail": "햇빛은 막고, 스타일은 살리고!"
+		}]
+	},
+	{
+		"slider" : [{
+			"src": "slidebanner/headImage7.jpg",
+			"event": "HOT",
+			"product": "필기구가 바꾼",
+			"product_br": "집중력",
+			"product_detail": "[STUDY ESSENTIALS]조금 더 편안히 맞이하는 시험기간."
+		},
+		{
+			"src": "slidebanner/headImage8.jpg",
+			"event": "HOT",
+			"product": "책 속 요정과 함께 하는",
+			"product_br": "동화같은 독서시간",
+			"product_detail": "<바로펀딩>컴포지션X교보 책갈피 요정연필 에디션"
+		}]
+	},
+	{
+		"slider" : [{
+			"src": "slidebanner/headImage9.jpg",
+			"event": "HOT",
+			"product": "선물하는",
+			"product_br": "행복한 마음[4월호]",
+			"product_detail": "초록빛 공원에서 즐기는 북크닉"
+		},
+		{
+			"src": "slidebanner/headImage10.jpg",
+			"event": "NEW",
+			"product": "Spring & Home",
+			"product_br": "[봄앤홈]",
+			"product_detail": "키워드 별 봄맞이 집꾸미기 아이템 추천"
+		}]
+	}
+]

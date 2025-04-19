@@ -1,0 +1,61 @@
+[{
+	"src" : "lanking/lank3_1.jpg",
+	"name" : "Hickies",
+	"detail" : "히키스 투명아킐 화장품 소품정리 데스크 정리서랍",
+	"discount" : "",
+	"price" : "16,800"
+},{
+	"src" : "lanking/lank3_2.jpg",
+	"name" : "Printac",
+	"detail" : "프린텍 미니 라벨 프린터 네임스티커 제작 LP90",
+	"discount" : "40%",
+	"price" : "35,900"
+},{
+	"src" : "lanking/lank3_3.jpg",
+	"name" : "Kim Yongseok Living Lab",
+	"detail" : "손잡이 수납 정리바구니 트롤리 수납함 연필꽂이 5칸",
+	"discount" : "",
+	"price" : "6,900"
+},{
+	"src" : "lanking/lank3_4.jpg",
+	"name" : "LUMINCOMMERCE",
+	"detail" : "길이조절 북엔드 책꽂이 자바라형",
+	"discount" : "9%",
+	"price" : "9,000"
+},{
+	"src" : "lanking/lank3_5.jpg",
+	"name" : "hyeseul",
+	"detail" : "북커버-오만과 편견 (다아시의 고백)",
+	"discount" : "10%",
+	"price" : "21,600"
+},{
+	"src" : "lanking/lank3_6.jpg",
+	"name" : "Printec",
+	"detail" : "프린텍 미니 라벨 프린터 LP90 라벨지 모음",
+	"discount" : "10%",
+	"price" : "5,400"
+},{
+"src" : "lanking/lank3_7.jpg",
+	"name" : "Pandamong",
+	"detail" : "판다몽 | 고흐 마그넷 | 아트 마그넷 냉장고 자석",
+	"discount" : "",
+	"price" : "4,000"
+},{
+	"src" : "lanking/lank3_8.jpg",
+	"name" : "STAEDTLER",
+	"detail" : "스테들러 슈퍼점보 색연필 1287",
+	"discount" : "30%",
+	"price" : "1,400"
+},{
+	"src" : "lanking/lank3_9.jpg",
+	"name" : "LIFESTYLER KOREA",
+	"detail" : "공간활용 무타공 다걸어 가방걸이 3세대 mini",
+	"discount" : "22%",
+	"price" : "10,900"
+},{
+	"src" : "lanking/lank3_10.jpg",
+	"name" : "JANGJISA",
+	"detail" : "메트로폴리스 멀티 펜스텐드",
+	"discount" : "20%",
+	"price" : "4,800"
+}]

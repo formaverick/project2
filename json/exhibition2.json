@@ -1,0 +1,61 @@
+[{
+	"info" : "유럽 국민 애착인형",
+	"infobr" : "부코스키",
+	"infobottom" : "2024 유럽맘 투표 1위 애착인형 입점!",
+	"mainsrc" : "exhibition/wa16.jpg",
+	"product" : [{
+			"src" : "exhibition/wa17.jpg",
+			"name" : "Bukowski",
+			"detail" : "1+1 미니인형 부코스키 토끼키링",
+			"discount" : "26%",
+			"price" : "52,000",
+			"originalprice" : "70,000"
+		},{
+			"src" : "exhibition/wa18.jpg",
+			"name" : "Bukowski",
+			"detail" : "1+1 미니인형 부코스키 기니피그키링 피기",
+			"discount" : "25%",
+			"price" : "51,000",
+			"originalprice" : "68,000"		
+		}]
+},{
+	"info" : "직선의 간결함",
+	"infobr" : "곡선의 리듬감",
+	"infobottom" : "Plant.L 에어프루닝 화분 봄맞이 특가",
+	"mainsrc" : "exhibition/wa19.jpg",
+	"product" : [{
+			"src" : "exhibition/wa20.jpg",
+			"name" : "Plant.L",
+			"detail" : "에어프루닝 슬릿화분 다육이 플라스틱 화분",
+			"discount" : "37%",
+			"price" : "4,410",
+			"originalprice" : "7,000"
+		},{
+			"src" : "exhibition/wa21.jpg",
+			"name" : "Plant.L",
+			"detail" : "오브제화분 다육이 플랜테리어플라스틱화분",
+			"discount" : "37%",
+			"price" : "13,410",
+			"originalprice" : "21,300"		
+		}]
+},{
+	"info" : "전설의 연필",
+	"infobr" : "BLACKWING",
+	"infobottom" : "품절 재입고 기념 블랙윙 연필 브랜드 쿠폰 증정!",
+	"mainsrc" : "exhibition/wa13.jpg",
+	"product" : [{
+			"src" : "exhibition/wa14.jpg",
+			"name" : "BLACKWING",
+			"detail" : "[BLACKWING]블랙윙 연필 Matte (Black)",
+			"discount" : "10%",
+			"price" : "3,690",
+			"originalprice" : "4,100"
+		},{
+			"src" : "exhibition/wa15.jpg",
+			"name" : "BLACKWING",
+			"detail" : "[BLACKWING]블랙윙 연필 602",
+			"discount" : "10%",
+			"price" : "3,690",
+			"originalprice" : "4,100"		
+		}]
+}]

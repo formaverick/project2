@@ -1,0 +1,40 @@
+[{
+	"src" : "monthbest/m1.jpg",
+	"name" : "Infinite Challenge",
+	"detail" : "MBC 무한도전 20주년 2025 일력",
+	"discount" : "",
+	"price" : "33,000",
+	"originalprice" : ""
+},
+{
+	"src" : "monthbest/m2.jpg",
+	"name" : "norit",
+	"detail" : "노르잇 투명독서대 높이조절 PR01A",
+	"discount" : "10%",
+	"price" : "28,900",
+	"originalprice" : "32,000"
+},
+{
+	"src" : "monthbest/m3.jpg",
+	"name" : "STAEDTLER",
+	"detail" : "[한정판]스테들러 헥사고날 샤프_딥블루/골드(+각인)",
+	"discount" : "14%",
+	"price" : "38,900",
+	"originalprice" : "45,000"
+},
+{
+	"src" : "monthbest/m4.jpg",
+	"name" : "beside books",
+	"detail" : "파란 마음 북커버",
+	"discount" : "22%",
+	"price" : "19,500",
+	"originalprice" : "22,900"
+},
+{
+	"src" : "monthbest/m5.jpg",
+	"name" : "RECOMMA",
+	"detail" : "[무료각인]오브리즈 휴대용독서대+파우치set(사은품)",
+	"discount" : "22%",
+	"price" : "17,900",
+	"originalprice" : "22,900"
+}]

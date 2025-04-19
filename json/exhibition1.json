@@ -1,0 +1,61 @@
+[{
+	"info" : "숲이 되는",
+	"infobr" : "꿈",
+	"infobottom" : "교보문고 X 휘리 X 공예가 단독 한정판 독서용품",
+	"mainsrc" : "exhibition/c7.jpg",
+	"product" : [{
+			"src" : "exhibition/c8.jpg",
+			"name" : "beside books",
+			"detail" : "[한정수량]숲의 노래 북커버",
+			"discount" : "",
+			"price" : "27,000",
+			"originalprice" : ""
+		},{
+			"src" : "exhibition/c9.jpg",
+			"name" : "beside books",
+			"detail" : "[한정수량]숲의 꿈 북커버",
+			"discount" : "",
+			"price" : "27,000",
+			"originalprice" : ""		
+		}]
+},{
+	"info" : "퇴사해도",
+	"infobr" : "될까요?",
+	"infobottom" : "가슴 속에 사직서를 품고 있는 직장인이라면!",
+	"mainsrc" : "exhibition/c19.jpg",
+	"product" : [{
+			"src" : "exhibition/c20.jpg",
+			"name" : "Indigo",
+			"detail" : "자문자답 퇴사고민(퇴사문답1,Q&A,질문북)",
+			"discount" : "15%",
+			"price" : "5,780",
+			"originalprice" : "6,800"
+		},{
+			"src" : "exhibition/c21.jpg",
+			"name" : "Indigo",
+			"detail" : "자문자답 퇴사고민(퇴사문답2,Q&A,질문북)",
+			"discount" : "15%",
+			"price" : "5,780",
+			"originalprice" : "6,800"		
+		}]
+},{
+	"info" : "묘한",
+	"infobr" : "시선",
+	"infobottom" : "고동상X블랭크캣(윤성) : 묘한 시선 티켓 판매",
+	"mainsrc" : "exhibition/c10.jpg",
+	"product" : [{
+			"src" : "exhibition/c11.jpg",
+			"name" : "Likethiszcom",
+			"detail" : "[대구/전시]고동상x블랭크캣(윤성)기획전",
+			"discount" : "29%",
+			"price" : "5,000",
+			"originalprice" : "7,000"
+		},{
+			"src" : "exhibition/c12.jpg",
+			"name" : "Likethiszcom",
+			"detail" : "Knock knock, 윤성(블랭크캣) 작가 그림",
+			"discount" : "55%",
+			"price" : "94,500",
+			"originalprice" : "210,000"		
+		}]
+}]

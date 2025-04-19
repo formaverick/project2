@@ -1,0 +1,61 @@
+[{
+	"src" : "lanking/lank6_1.jpg",
+	"name" : "SKY",
+	"detail" : "스카이 필 5in1 일체형 10000mAh 20W 고속 보조배터리",
+	"discount" : "60%",
+	"price" : "15,990"
+},{
+	"src" : "lanking/lank6_2.jpg",
+	"name" : "logitech G",
+	"detail" : "[국내정품]로지텍 인체공학 무선 마우스 버티컬 LIFT",
+	"discount" : "30%",
+	"price" : "69,000"
+},{
+	"src" : "lanking/lank6_3.jpg",
+	"name" : "allo",
+	"detail" : "고소충전 C타임 8핀 일체형 도킹형 보조배터리 502DPD",
+	"discount" : "10%",
+	"price" : "19,900"
+},{
+	"src" : "lanking/lank6_4.jpg",
+	"name" : "mooas",
+	"detail" : "[무아스]마카롱 3구 USB 고용량 멀티탭 케이블 1.5m",
+	"discount" : "17%",
+	"price" : "28,900"
+},{
+	"src" : "lanking/lank6_5.jpg",
+	"name" : "INSTAX",
+	"detail" : "인스탁스 미니필름 20장",
+	"discount" : "",
+	"price" : "22,900"
+},{
+	"src" : "lanking/lank6_6.jpg",
+	"name" : "THREEGO",
+	"detail" : "아이코모스 C타입 초고속 PD 멀티 어댑터 충전기 65W",
+	"discount" : "41%",
+	"price" : "34,900"
+},{
+    "src" : "lanking/lank6_7.jpg",
+	"name" : "SAMSUNG",
+	"detail" : "삼성 갤럭시 버즈3 무선 블루투스 이어폰 SM-R530",
+	"discount" : "52%",
+	"price" : "105,000"
+},{
+	"src" : "lanking/lank6_8.jpg",
+	"name" : "logitech G",
+	"detail" : "로지텍 국내정품 KEYSTOGO2 무소음 블루투스 키보드",
+	"discount" : "",
+	"price" : "109,000"
+},{
+	"src" : "lanking/lank6_9.jpg",
+	"name" : "SOYMIX",
+	"detail" : "유니크 가죽 장패드 마우스패드 데스크매트 생활방수",
+	"discount" : "55%",
+	"price" : "8,900"
+},{
+	"src" : "lanking/lank6_10.jpg",
+	"name" : "allo",
+	"detail" : "3in1 프로 갤러시 아이폰 올인원 고속 무선 충전기",
+	"discount" : "44%",
+	"price" : "33,500"
+}]
