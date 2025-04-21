@@ -88,7 +88,6 @@
 
     background: #72727266;
     cursor: pointer;
-    transform: translateY(-80%);
     height: 30px;
     border-radius: 50%;
     padding: 5px 15px;
@@ -96,11 +95,13 @@
 
 
 .prev {
-    left: 300px;
+    margin-top: 30px;
+    left: 240px;
 }
 
 .next {
-    right: 300px;
+    margin-top: 30px;
+    right: 240px;
 }
 
 /* section 시작 */

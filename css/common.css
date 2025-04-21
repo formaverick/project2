@@ -189,7 +189,8 @@ header {
     height: 77px;
     float: left;
     margin: 5px 0 0 115px;
-    /* background-color: rgb(151, 100, 100); */
+    position: relative;
+    z-index: 100;
 }
 
 /* 버튼 카테고리 */
@@ -197,7 +198,6 @@ header {
     width: 44px;
     height: 35px;
     float: left;
-    /* background-color: rgb(231, 216, 216); */
     border: 1px solid #ddd;
     border-radius: 50%;
     cursor: pointer;
@@ -219,7 +219,6 @@ header {
     cursor: pointer;
     position: relative;
     width: 100px;
-    /* background-color: pink; */
 }
 
 /* 카테고리1 */

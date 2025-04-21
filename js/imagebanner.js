@@ -31,4 +31,3 @@ $(function(){
 
     setInterval(slide, 2000);
 });
-
